@@ -1,0 +1,68 @@
+html {
+    background-color: #f5e6d7;
+    font-family: "Comic Sans MS";
+    padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New";
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Courier New";
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+  width: 400px;
+  border: 20px solid white;
+  border-radius: 20px;
+  background-color: white;
+}
+
+div {
+  padding: 30px;
+}
+
+button {
+  background-color: #806855;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+
+button a {
+  color: #f5e6d7;
+  font-family: "Comic Sans MS";
+  text-decoration: none;
+}
+
+#body {
+  font-family: "Comic Sans MS";
+}
+
+.story-text {
+  column-count: 2;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+p .story-text {
+    background-image: url("binderpaper.png");
+    background-repeat: no-repeat;
+}
+
+.story-options {
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+}
