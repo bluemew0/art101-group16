@@ -1,19 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=VT323|Amiri&display=swap");
+
 html {
-    background-color: #f5e6d7;
-    font-family: "Comic Sans MS";
-    padding: 20px;
-    font-size: 20px;
+    background: url("../img/IMG_1364.JPG") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "VT323";
+    font-size: 40px;
 }
 
 h1 {
   text-align: center;
-  font-family: "Courier New";
+  font-family: "VT323";
   font-weight: bolder;
 }
 
 h2 {
   text-align: center;
-  font-family: "Courier New";
+  font-family: "VT323";
   font-weight: bold;
   font-style: italic;
 }
@@ -30,7 +32,7 @@ img {
 }
 
 embed {
-  font-family: "Comic Sans MS";
+  font-family: "VT323";
 }
 
 div {
@@ -39,19 +41,30 @@ div {
 
 button {
   background-color: #806855;
+  color: white;
+  font-family: "VT323";
   border-radius: 30px;
-  padding: 15px;
   border: none;
-  cursor: pointer;
-  color: #f5e6d7;
-  font-family: "Comic Sans MS";
-  text-decoration: none;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  box-shadow: 0 9px #999;
 }
+
+button:hover {
+  background-color: #A40000;
+}
+
+button:active {
+  background-color: #A40000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 button a {
   color: #f5e6d7;
-  font-family: "Comic Sans MS";
+  font-family: "VT323";
   text-decoration: none;
   font-size: 15px;
 }
@@ -63,7 +76,7 @@ button a {
 }
 
 #body {
-  font-family: "Comic Sans MS";
+  font-family: "VT323";
 }
 
 p #story-text {
@@ -73,7 +86,7 @@ p #story-text {
 
 #story-text {
   background-color: white;
-  font-family: "Comic Sans MS";
+  font-family: "VT323";
   padding: 20px;
 }
 
