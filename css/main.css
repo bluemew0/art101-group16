@@ -43,3 +43,9 @@ button a {
   color: #f5e6d7;
   text-decoration: none;
 }
+
+#intro {
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 20px;
+}

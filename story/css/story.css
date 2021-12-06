@@ -2,6 +2,7 @@ html {
     background-color: #f5e6d7;
     font-family: "Comic Sans MS";
     padding: 20px;
+    font-size: 20px;
 }
 
 h1 {
@@ -22,10 +23,14 @@ p {
 }
 
 img {
-  width: 400px;
+  width: 600px;
   border: 20px solid white;
   border-radius: 20px;
   background-color: white;
+}
+
+embed {
+  font-family: "Comic Sans MS";
 }
 
 div {
@@ -34,35 +39,44 @@ div {
 
 button {
   background-color: #806855;
-  color: white;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 30px;
+  padding: 15px;
   border: none;
+  cursor: pointer;
+  color: #f5e6d7;
+  font-family: "Comic Sans MS";
+  text-decoration: none;
+  font-size: 20px;
 }
 
 button a {
   color: #f5e6d7;
   font-family: "Comic Sans MS";
   text-decoration: none;
+  font-size: 15px;
+}
+
+#home {
+  position: fixed;
+  left: 30;
+  bottom: 30;
 }
 
 #body {
   font-family: "Comic Sans MS";
 }
 
-.story-text {
-  column-count: 2;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-p .story-text {
+p #story-text {
     background-image: url("binderpaper.png");
     background-repeat: no-repeat;
 }
 
-.story-options {
-  padding-left: 30%;
-  padding-right: 30%;
-  text-align: center;
+#story-text {
+  background-color: white;
+  font-family: "Comic Sans MS";
+  padding: 20px;
+}
+
+.story {
+  column-count: 2;
 }
