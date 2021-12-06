@@ -61,7 +61,9 @@ button a {
 }
 
 #intro {
-  padding-left: 30%;
-  padding-right: 30%;
-  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 50px;
+  color: white;
+  text-shadow: 4px 4px black;
 }

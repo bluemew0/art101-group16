@@ -39,7 +39,7 @@ function createScene() {
         // for however many options, create corresponding buttons with option text
         for (x in currentEvent.options) {
           var optionTxt = currentEvent.options[x].option;
-          $(".story-options").append("<button class='event' id='"+currentEvent.options[x].next+"'>"+optionTxt+"</button><br><br>");
+          $(".story-options").append("<button class='event' id='"+currentEvent.options[x].next+"'>"+optionTxt+"</button><br>");
         }
 
         // on click, finds the next event index and changes currentIndex to that
@@ -64,7 +64,7 @@ function createScene() {
         // for however many options, create corresponding buttons with option text
         for (x in currentEvent.options) {
           var optionTxt = currentEvent.options[x].option;
-          $(".story-options").append("<button><a href='"+currentEvent.link+"'>"+optionTxt+"</button></a><br><br>");
+          $(".story-options").append("<button><a href='"+currentEvent.link+"'>"+optionTxt+"</button></a><br>");
         }
       }
     })

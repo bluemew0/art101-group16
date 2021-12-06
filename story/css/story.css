@@ -5,6 +5,7 @@ html {
     background-size: cover;
     font-family: "VT323";
     font-size: 40px;
+    line-height: 200%;
 }
 
 h1 {
@@ -21,14 +22,13 @@ h2 {
 }
 
 p {
-    text-align: left;
+  text-align: left;
 }
 
 img {
   width: 600px;
   max-width: 100%;
   height: auto;
-  border: 20px solid white;
   border-radius: 20px;
   background-color: white;
 }
@@ -72,26 +72,17 @@ button a {
 }
 
 #home {
-  position: fixed;
-  left: 30;
-  bottom: 30;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
 }
 
 #body {
   font-family: "VT323";
-}
-
-p #story-text {
-    background-image: url("binderpaper.png");
-    background-repeat: no-repeat;
+  background: url("../img/IMG_1365.JPG") fixed;
 }
 
 #story-text {
-  background-color: white;
   font-family: "VT323";
   padding: 20px;
-}
-
-.story {
-  column-count: 2;
 }
