@@ -26,6 +26,8 @@ p {
 
 img {
   width: 600px;
+  max-width: 100%;
+  height: auto;
   border: 20px solid white;
   border-radius: 20px;
   background-color: white;
@@ -66,7 +68,7 @@ button a {
   color: #f5e6d7;
   font-family: "VT323";
   text-decoration: none;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 #home {
